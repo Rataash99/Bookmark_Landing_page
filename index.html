@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Bookmark landing page</title>
+</head>
+<body>
+<div class="overflow-hidden d-flex flex-column ">
+  <header class = ' d-flex justify-content-between align-items-center p-4 mb-4 p-sm-5 position-relative'>
+    <img src = "./images/logo-bookmark.svg" alt = 'logo' >
+    <img src="./images/icon-hamburger.svg" alt="hamburger" >
+    <ul class = 'position-absolute list-unstyled d-flex flex-column'>
+      <li>Features</li>
+      <li>Pricing</li>
+      <li>Contact</li>
+      <li>Login</li>
+    </ul>
+  </header>
+  <section class = 'd-flex flex-column w-100 gap-4 mb-5'>
+    <div class = 'position-relative overflow-hidden'>
+      <img class = 'img-fluid' src="./images/illustration-hero.svg" alt="#">
+      <span class="back-img"></span>
+    </div>
+    <div class = 'p-4 d-flex flex-column align-items-center justify-content-center gap-3'>
+      <h1 class="text-center">A Simple Bookmark Manager</h1>
+      <p class = 'text-center opacity-50'>  A clean and simple interface to organize your favourite websites. Open a new 
+        browser tab and see your sites load instantly. Try it for free.</p>
+        <div class = 'd-flex gap-3'>
+          <button class = 'px-3 btn-own rounded-1'>Get it on Chrome</button>
+          <button class="px-3 btn-own bg-white text-dark rounded-1">Get it on Firefox</button>
+        </div>
+    </div>
+  </section>
+  <section class="d-flex justify-content-center flex-column align-items-center text-center gap-2 ">
+    <div class = 'd-flex gap-3 flex-column p-3'>
+      <h2>Features</h2>
+      <p class = 'opacity-50'>Our aim is to make it quick and easy for you to access your favourite websites. 
+        Your bookmarks sync between your devices so you can access them on the go.</p>
+    </div>
+    <div class = 'w-100 ps-3 pe-3'>
+      <ul class = 'list-group list-group-flush'>
+        <li class = 'list-group-item border-top'>Simple Bookmarking</li>
+        <li class = 'list-group-item'>Speedy Searching</li>
+        <li class = 'list-group-item border-bottom'>Easy Sharing</li>
+      </ul>
+    </div>
+    <div class="p-3 d-flex flex-column gap-5">
+      <div class = 'position-relative '>
+        <img class = 'img-fluid' src="./images/illustration-features-tab-1.svg" alt="#">
+        <span class = ' back-img-2'></span>
+      </div>
+      <div class="d-flex flex-column gap-2 mt-4">
+        <h2>Bookmark in one click</h2>
+        <p class="opacity-50">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+      </div>
+        <button class="d-none">More Info</button>
+    </div>
+  </section>
+  <section class="mt-5 p-3 d-flex flex-column justify-content-center align-items-center text-center gap-5 pb-5 mb-5">
+    <div class = 'flex-column d-flex gap-2'>
+      <h2>Download the extension</h2>
+      <p class="opacity-50">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+    </div>
+    <div class = 'd-flex flex-column gap-5'>
+      <div class="card  border-0 rounded-4 d-flex gap-3 py-4" style="width: 18rem;">
+        <img src="./images/logo-chrome.svg " class="card-img-top w-50 align-self-center" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Add to Chrome</h4>
+          <p class="card-text opacity-50">Minimum version 62</p>
+        </div>
+        <div class = 'd-flex flex-column gap-2 align-items-center'>
+          <hr id = 'dotted-spaced'>
+          <a href="#" class="btn-own">Add & Install Extension</a>
+        </div>
+      </div>
+      <div class="card  border-0 rounded-4 d-flex gap-3 py-4" style="width: 18rem;">
+        <img src="./images/logo-firefox.svg " class="card-img-top w-50 align-self-center" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Add to Firefox</h4>
+          <p class="card-text opacity-50">Minimum version 55</p>
+        </div>
+        <div class = 'd-flex flex-column gap-2 align-items-center'>
+          <hr id = 'dotted-spaced'>
+          <a href="#" class="btn-own">Add & Install Extension</a>
+        </div>
+      </div>
+      <div class="card  border-0 rounded-4 d-flex gap-3 py-4" style="width: 18rem;">
+        <img src="./images/logo-opera.svg " class="card-img-top w-50 align-self-center" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Add to Opera</h4>
+          <p class="card-text opacity-50">Minimum version 46</p>
+        </div>
+        <div class = 'd-flex flex-column gap-2 align-items-center'>
+          <hr id = 'dotted-spaced'>
+          <a href="#" class="btn-own">Add & Install Extension</a>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <section class = 'd-flex flex-column gap-5 mb-5 p-3 justify-content-center align-items-center text-center'>
+    <div class = 'd-flex flex-column gap-2'>
+      <h1>Frequently Asked Questions</h1>
+      <p class="opacity-50">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+    </div>
+    <div class="accordion w-100 accordion-flush border-bottom fs-6" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header " id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is Bookmark?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body lh-lg opacity-50 text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How can I request a new browser?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body lh-lg opacity-50 text-start">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Is there a mobile app?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body lh-lg opacity-50 text-start">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What about other Chromium browsers?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn-own">More Info</button>
+  </section>
+  <section class="mt-5 email-det d-flex flex-column gap-3 text-light justify-content-center align-items-center p-3 pt-5 text-center">
+    <div class = 'd-flex flex-column pt-3'>
+      <p class="count">35,000+ ALREADY JOINED</p>
+      <h2>Stay-up-to-date with what we're doing</h2>
+    </div>
+      <form class="row g-3 d-flex flex-column w-100">
+        <div class="col-auto w-100">
+          <label for="inputPassword2" class="visually-hidden"></label>
+          <input type="email" class="form-control py-2 px-3 rounded-1" id="inputPassword2" placeholder="Enter your email address">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn-own bg-opacity-75 bg-danger w-100 mb-3">Contact Us</button>
+        </div>
+      </form>
+  </section>
+  <footer class = 'text-light d-flex flex-column justify-content-center align-items-center py-5 gap-3'>
+    <div class = 'd-flex flex-column gap-4'>
+      <div class="position-relative">
+        <h2 class="position-absolute h2-logo">BOOKMARK</h2>
+        <img src="./images/logo-bookmark.svg" class = 'text-light' alt="logo">
+      </div>
+      <ul class = 'list-unstyled d-flex flex-column align-items-center justify-content-center gap-2 opacity-50'>
+        <li>features</li>
+        <li>pricing</li>
+        <li>contact</li>
+      </ul>
+    </div>
+    <div class = 'd-flex gap-3'>
+      <img src="./images/icon-facebook.svg" alt="#">
+      <img src="./images/icon-twitter.svg" alt="#">
+    </div>
+  </footer>
+</div>
+
+  <!-- Bookmark in one click
+
+  Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+
+  More Info
+
+  Intelligent search
+
+  Our powerful search feature will help you find saved sites in no time at all. 
+  No need to trawl through all of your bookmarks.
+
+  More Info
+
+  Share your bookmarks
+
+  Easily share your bookmarks and collections with others. Create a shareable 
+  link that you can send at the click of a button. -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
