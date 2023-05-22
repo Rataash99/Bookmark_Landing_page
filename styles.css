@@ -129,14 +129,21 @@ footer > div > img:hover{
     /* border:none; */
 }
 #error{
-    font-size: 0.9rem;
+    display: none;
+    font-size: 0.8rem;
     background-color: hsl(0, 94%, 66%);
     color: white;
+    padding: 3px;
+    padding-left: 0.9rem;
 }
 .input-error{
+    display: none;
     width: 1.5rem;
     right: 2rem;
     top:0.5rem;
+}
+.inputBorder{
+    border: 2px solid hsl(0, 94%, 66%);
 }
 
 
@@ -175,6 +182,7 @@ footer > div > img:hover{
   }
   .btn-email{
     background-color: hsl(0, 94%, 66%);
+    width: 100%;
   }
   .btn-email:hover{
     color: hsl(0, 94%, 66%);

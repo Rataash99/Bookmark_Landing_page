@@ -5,7 +5,8 @@ let headerIco = document.getElementsByClassName('header-ico')[0];
 let headerUl = document.getElementById('header-ul');
 let input = document.getElementsByTagName('input')[0];
 let error = document.getElementById('error');
-let button = document.getElementsByClassName('form-btn')[0];
+let button = document.getElementsByClassName('btn-email')[0];
+let errorLogo = document.getElementsByClassName('input-error')[0];
 
 let arr = [
     {
@@ -53,9 +54,22 @@ const changeContent = (e) => {
 }
 
 let checkInput = () => {
-    let emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
-    if(!input.innerText.match(emailRegex)){
+    let emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    if(!emailRegex.test(input.value)){
         error.innerText = "Whoops, make sure it's an email";
+        input.classList.add('inputBorder')
+        errorLogo.style.display = 'block';
+        error.style.display = 'block';
+        errorLogo.style.display = 'block';
+        // console.log('matching');
+    }
+    else{
+        errorLogo.style.display = 'none';
+        error.style.display = 'none';
+        input.classList.remove('inputBorder');
+        errorLogo.style.display = 'none';
+        // console.log("not matching");
+        input.value = "";
     }
 }
 let toggleNav = () => {
@@ -82,4 +96,4 @@ let toggleNav = () => {
 
 hamburg.addEventListener('click', toggleNav);
 ul.addEventListener('click', changeContent);
-// button.addEventListener('click', checkInput);
+button.addEventListener('click', checkInput);

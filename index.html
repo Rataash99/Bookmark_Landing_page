@@ -353,9 +353,9 @@
           <h2>Stay-up-to-date with what we're doing</h2>
         </div>
         <form 
-          class="row gap-4  d-flex flex-column w-100 flex-lg-row justify-content-center align-items-center"
+          class="d-flex w-100 justify-content-center gap-2 flex-column flex-sm-row align-items-center"
         >
-          <div class="col-auto col-lg-8 d-flex flex-column w-100 position-relative">
+          <div class=" position-relative">
             <label for="inputPassword2" class="visually-hidden"></label>
             <input
               type="text"
@@ -364,10 +364,11 @@
               id="inputEm"
               placeholder="Enter your email address">
               <img class="input-error position-absolute" src="./images/icon-error.svg" alt="#">
-          </input>
+           </input>
+           <span id = 'error' class = 'text-start fst-italic'></span>
           </div>
-          <div class="col-auto col-lg-4 w-100 ">
-            <button class=" btn-email btn-own w-100" onclick = 'return false;'>Contact Us </button>
+          <div class="w-100">
+            <button class=" btn-email btn-own" onclick = 'return false;'>Contact Us </button>
           </div>
         </form>
       </section>
