@@ -172,7 +172,7 @@ footer > div > img:hover{
 .card-img-top{
     width: 1rem;
 }
-#dotted-spaced {
+.dotted-spaced {
     background-image: linear-gradient(to right, rgb(141, 141, 141) 33%, rgba(255,255,255,0) 0%);
     background-position: bottom;
     background-size: 15px 10px;
