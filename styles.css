@@ -131,6 +131,8 @@ footer > div > img:hover{
 #error{
     display: none;
     font-size: 0.8rem;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
     background-color: hsl(0, 94%, 66%);
     color: white;
     padding: 3px;
@@ -139,13 +141,12 @@ footer > div > img:hover{
 .input-error{
     display: none;
     width: 1.5rem;
-    right: 2rem;
-    top:0.5rem;
+    right: 1rem;
+    top:0.6rem;
 }
 .inputBorder{
     border: 2px solid hsl(0, 94%, 66%);
 }
-
 
 
 

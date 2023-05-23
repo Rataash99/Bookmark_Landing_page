@@ -61,14 +61,12 @@ let checkInput = () => {
         errorLogo.style.display = 'block';
         error.style.display = 'block';
         errorLogo.style.display = 'block';
-        // console.log('matching');
     }
     else{
         errorLogo.style.display = 'none';
         error.style.display = 'none';
         input.classList.remove('inputBorder');
         errorLogo.style.display = 'none';
-        // console.log("not matching");
         input.value = "";
     }
 }
